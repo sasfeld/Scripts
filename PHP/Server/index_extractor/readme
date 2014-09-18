@@ -1,0 +1,8 @@
+#################################################################
+#
+# INSTALLATION
+#
+#################################################################
+
+1. Create a data file if you want to use another one, grant write access on it.
+2. Set data file in index_extractor.php
