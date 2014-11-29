@@ -38,7 +38,6 @@ function removeExtractedFiles($dir)
 
     try {
         while (false !== ($file = readdir($handle))) {
-	    echo "File: ". $dir . '/' . $file . "\n";
 	    if ($file == '.' || $file == '..'
 		|| $file == '/' || $file == ''
 		|| $file == 'Index.rar') {
